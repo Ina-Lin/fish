@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel=stylesheet type="text/css" href="main.css">
+
+    <title></title>
+</head>
+<body>
+    <div><button onclick="reset()">重來</button><span>名稱: </span><span id="name"></span></div>
+    <div class="img" onmousemove="getMouseXY(event)" onclick="change(event)"><canvas id="canvas"  onmouseover="show()"></canvas>
+    </div>
+    <div class="back">
+        <div class="text" style="color: white">存在</div>
+        <div><textarea id="exist">
+1:紅紫鸚哥魚 2:孟加拉笛鯛
+3:鸚哥魚 4:大甲鰺
+5:珊瑚和藻類 6:拖爾逆鉤鰺
+7:點籃子魚 8:條紋路鱸
+9:大法螺 10:龍王鯛
+11:棘冠海星 12:白結螺
+        </textarea></div>
+        <div class="text" style="color: red">滅絕</div>
+        <div><textarea id="extinct"></textarea></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
