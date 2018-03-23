@@ -1,4 +1,4 @@
 # Web
 # HTML
 # CSS
-# JSP
+# JavaScript
